@@ -57,9 +57,9 @@
                 var formData = new FormData();
                 formData.append("file", $('#file')[0].files[0]);
                 formData.append("updateSupport", $("input[name='updateSupport']").is(':checked'));
-                $("a.layui-layer-btn0").disabled("true");
+            /*    $("a.layui-layer-btn0").disabled("true");
                 $("a.layui-layer-btn1").disabled("true");
-                $("a. layui-layer-close1").hide();
+                $("a. layui-layer-close1").hide();*/
                 $.ajax({
                     url: "/importData",
                     data: formData,

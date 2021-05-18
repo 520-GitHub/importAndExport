@@ -131,8 +131,8 @@ public class Global
      */
     public static String getDownloadPath()
     {
-//        return getConfig("ruoyi.profile") + "download/";
-        return "d:/log/download/";
+        return getConfig("ruoyi.profile") + "download/";
+//        return "d:/log/download/";
     }
 
     /**
